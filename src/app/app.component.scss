@@ -4,6 +4,7 @@ body {
 }
 .flex-container {
   display: flex;
+  margin-bottom: 10px;
 }
 .flex-container1 > div {
   display: flex;
@@ -27,11 +28,11 @@ body {
   margin-right: 20px;
 }
 .magenta {
-  background-color: magenta;
+  background-color: #0055a4;
   border-radius: 5px;
 }
 
 .green {
-  background-color: green;
+  background-color: #ef4135;
   border-radius: 5px;
 }
