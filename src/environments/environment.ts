@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig : {
+    apiKey: "AIzaSyBXmtukfcoBiKIF0GXQTSSO7GQ7Sw-dkvU",
+    authDomain: "weather-ac173.firebaseapp.com",
+    databaseURL: "https://weather-ac173-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "weather-ac173",
+    storageBucket: "weather-ac173.appspot.com",
+    messagingSenderId: "1056930665843",
+    appId: "1:1056930665843:web:62b1b34f94ce0d49d5a106",
+    measurementId: "G-P96ZH4JL2N"
+  }
 };
 
 /*
